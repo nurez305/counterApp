@@ -5,10 +5,10 @@ let counter = 0;
 let interval;
 
 document.querySelector('button').addEventListener('click', ()=>{
-    clearTimeout(interval)
     counter++
-
+    
     header.textContent = counter
+    clearTimeout(interval)
 })
 
 
